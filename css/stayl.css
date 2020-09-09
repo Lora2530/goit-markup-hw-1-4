@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    -accent-color: red;
+    -darc-color: #000000;
+    -grey-color: #212121;
+    -blu-color: #2196F3
+
+}
+.Menu{
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    margin-right: auto;
+}
+.Conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 0;
+}
+.web{
+    color: var (-blu-color);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    width: 153px;
+    height: 31px;
+    top: 24px;
+    margin-right: 85px;
+}
+.ig{
+    left: 65.75%;
+    right: 33.25%;
+    top: 1.16%;
+    bottom: 98.43%;
+    width: 16px;
+    height: 12px;
+}
+.igo{
+    left: 77.69%;
+    right: 21.69%;
+    top: 1.09%;
+    bottom: 98.36%;
+    width: 16px;
+    height: 12px;
+}
+.Item:not(:last-child){
+    margin-right: 50px;
+}
+.Studio{
+    color: var (-darc-color);
+}
+.Stu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var (-grey-color);
+    text-decoration: none;
+}
+.Item{
+    margin-right: 30px;
+    list-style-type: none;
+}
+.Stu:hover,
+.Stu:focus{
+    var(-accent-color); 
+}
+.Efect{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+.Efect{
+    margin-bottom: 30px;
+    
+}
+.hed{
+    background-image: url(../img/heder.png);
+    width: 1230px;
+    height: 600px;
+}
+.Zakaz{
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    left: 415px;
+    top: 474px;
+    margin-left: 480px;
+}
+.Zakaz{
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+}
+.Uslug {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 260px;
+    height: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+.Ideal{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+    padding-bottom: 20px;
+    width: 260px;
+    height: 16px;
+    margin-left: 30px;
+}
+.Shem{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.Chem{
+    display: flex;
+}
+.imt{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.list-tim{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 160px;
+    height: 60px;
+    left: 215px;
+    top: 2493px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 10px;   
+}
+.img{
+    width: 270px;
+    height: 80px;
+    text-align: center;
+    background: #F5F4FA;
+    margin-left: 20px;
+}
+.list-ton{
+    padding-top: 90px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.Dodatok{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    left: 215px;
+    top: 1435px;
+}
+
+.Komand{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+    padding-bottom: 60px; 
+}
+.Pipel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+    text-align: center;
+    margin-top: 30px;
+}
+.Profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
+    margin-top: 10px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.social-list-icon:not(:last-child){
+    margin-right: 10px;
+}
+.social-list-pcon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.social-list-pcon:hover .icom{
+    fill: var(--accent-color);
+}
+.List-klient{
+    margin-left: 30px;
+    width: 260px; 
+    height: 250px;
+    display: flex;
+}
+.Client{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+    margin-bottom: 50px;
+}
+.City{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.Itom{
+    margin-top: 20px;
+}
+.top{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+.Adres{
+    background: #2F303A;
+}
+.conte{
+    margin-top: 60px;
+    margin-left: 215px;
+    margin-bottom: 60px;
+}
+.Studio1{
+    color: #FFFFFF;
+}
+.Prin{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 70px;
+}
+.tel{ 
+    color: rgba(255, 255, 255, 0.6);
+}
