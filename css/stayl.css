@@ -6,7 +6,8 @@
     -accent-color: red;
     -darc-color: #000000;
     -grey-color: #212121;
-    -wait-color:#FFFFFF
+    -wait-color:#FFFFFF;
+    -blue-color:#2196F3;
 
 }
 .Menu{
@@ -65,14 +66,14 @@
     margin-right: 50px;
 }
 .Studio{
-    color: var (-darc-color);
+    color: var(--darc-color);
 }
 .Stu{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var (-grey-color);
+    color: var(--grey-color);
     text-decoration: none;
 }
 .Item{
@@ -81,7 +82,7 @@
 }
 .Stu:hover,
 .Stu:focus{
-    var(-accent-color); 
+  color: var(--blue-color); 
 }
 .Efect{
     font-weight: 900;
@@ -144,7 +145,7 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var (-grey-color);
+    color: var(--grey-color);
     padding-top: 90px;
     padding-bottom: 50px;
 }
@@ -164,7 +165,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-left: 10px;
-    background: #FFFFFF
+    background: #FFFFFF;
 }
 .logo{
     width: 170px;
@@ -218,7 +219,7 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var (-grey-color);
+    color: var(--grey-color);
     padding-bottom: 90px; 
 }
 .Pipel {
@@ -226,7 +227,7 @@
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: var (-grey-color);
+    color: var(--grey-color);
     text-align: center;
     margin-top: 30px;
 }
@@ -252,11 +253,15 @@
     align-items: center;
     width: 34px;
     height: 34px;
-    background-color: var(--wait-color);
+    background-color: #FFFFFF;
     border-radius: 50%;
 }
-.social-list-pcon:hover .icom{
-    fill: var(--accent-color);
+.social-list-pcon:hover,
+.social-list-pcon:focus{
+    color: blue;
+}
+ .icom{
+    fill:red;
 }
 .List-klient{
     margin-left: 30px;
@@ -269,7 +274,7 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var (-grey-color);
+    color: var(--grey-color);
     margin-bottom: 50px;
 }
 .City{
